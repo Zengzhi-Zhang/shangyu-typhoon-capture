@@ -1,0 +1,15 @@
+label,geolocated,eligible,matchable,median_control_capture,grouping
+Q1 (low),298,239,2,0.0021,baseline-flow quartile
+Q2,288,227,24,0.0484,baseline-flow quartile
+Q3,276,248,120,0.2893,baseline-flow quartile
+Q4 (high),213,211,183,0.7300,baseline-flow quartile
+Unit A,235,231,2,0.0022,management unit (anonymised)
+Unit B,202,199,163,0.7386,management unit (anonymised)
+Unit C,186,139,50,0.1812,management unit (anonymised)
+Unit D,142,117,44,0.2115,management unit (anonymised)
+Unit E,142,95,44,0.2692,management unit (anonymised)
+Unit F,59,56,7,0.0092,management unit (anonymised)
+Unit G,29,24,13,0.3099,management unit (anonymised)
+Unit H,18,18,3,0.0886,management unit (anonymised)
+Unit I,4,4,1,0.0699,management unit (anonymised)
+Unrecorded,58,42,2,0.0019,management unit (anonymised)

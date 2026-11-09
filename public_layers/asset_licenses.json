@@ -1,0 +1,76 @@
+{
+  "assets": [
+    {
+      "file": "public_layers/terrain_overview_district.tif",
+      "sha256": "93f6a3d2b437fbdb4f059073ef0e6b5da3ba3588d382e828d3f653ebe338414d",
+      "format": "TIFF",
+      "source": "https://registry.opendata.aws/terrain-tiles/",
+      "license": "Source-specific public terrain attribution; cropped rendered hillshade",
+      "attribution": "USGS GMTED2010 and SRTM; NOAA ETOPO1, via AWS Terrain Tiles"
+    },
+    {
+      "file": "public_layers/terrain_overview_core.tif",
+      "sha256": "d121a81d18054d60b0ec1dda8bcbc76c1974c328a55a9fdd0183cd4ee2964ae0",
+      "format": "TIFF",
+      "source": "https://registry.opendata.aws/terrain-tiles/",
+      "license": "Source-specific public terrain attribution; cropped rendered hillshade",
+      "attribution": "USGS GMTED2010 and SRTM; NOAA ETOPO1, via AWS Terrain Tiles"
+    },
+    {
+      "file": "public_layers/terrain_spatial_district.tif",
+      "sha256": "f6138c9c48b15d74c0e385d36cb537b8b5457fd6924c8841a77063b535a092d3",
+      "format": "TIFF",
+      "source": "https://registry.opendata.aws/terrain-tiles/",
+      "license": "Source-specific public terrain attribution; cropped rendered hillshade",
+      "attribution": "USGS GMTED2010 and SRTM; NOAA ETOPO1, via AWS Terrain Tiles"
+    },
+    {
+      "file": "public_layers/terrain_manifest.json",
+      "sha256": "ed7259ec1f49bffb8538c4999064b3f3a697df244d3b1919a82f978b4138a081",
+      "format": "JSON",
+      "source": "https://registry.opendata.aws/terrain-tiles/",
+      "license": "Terrain layer georeferencing metadata",
+      "attribution": "USGS GMTED2010 and SRTM; NOAA ETOPO1, via AWS Terrain Tiles"
+    },
+    {
+      "file": "public_layers/osm_shangyu_boundary.geojson",
+      "sha256": "0330b2e99f9cbd82860f58712cd866fa8dbde237504a82248d332ddc0823faf7",
+      "format": "GeoJSON",
+      "source": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL",
+      "attribution": "OpenStreetMap contributors"
+    },
+    {
+      "file": "public_layers/osm_zhejiang_boundary.geojson",
+      "sha256": "dcf64c3fe5609d389653782eb9dd4b4ceef937b9962a39af928515f3ae1d6c07",
+      "format": "GeoJSON",
+      "source": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL",
+      "attribution": "OpenStreetMap contributors"
+    },
+    {
+      "file": "public_layers/naturalearth_land.geojson",
+      "sha256": "684b5d5363bbc00e246bd12f1bfe8a808a68d3f7c659789f803e265e6f82f6b7",
+      "format": "GeoJSON",
+      "source": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "license": "Public domain",
+      "attribution": "Natural Earth"
+    },
+    {
+      "file": "public_layers/osm_major_roads.geojson",
+      "sha256": "ebc2e1d7a3c390b311e120667e7be2bac0d2dded3db772ee8aedde66d9a08db1",
+      "format": "GeoJSON",
+      "source": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL",
+      "attribution": "OpenStreetMap contributors"
+    }
+  ],
+  "storm_source": {
+    "files": [
+      "source_data/fig2_typhoon_track_cma_ibtracs.csv",
+      "source_data/fig2_landfalls.csv"
+    ],
+    "source": "https://www.ncei.noaa.gov/products/international-best-track-archive",
+    "citation": "Gahtan et al. (2024), IBTrACS v4r01, DOI10.25921/82ty-9e16; Knapp et al. (2010)"
+  }
+}

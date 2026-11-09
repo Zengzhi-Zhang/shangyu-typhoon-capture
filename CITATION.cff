@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software or its source data, please cite the accompanying paper and this archive."
+title: "Code and source data for 'Vehicles missed by failed cameras reshape urban traffic recovery estimates after a typhoon'"
+type: software
+version: "1.0.0"
+repository-code: "https://github.com/Zengzhi-Zhang/shangyu-typhoon-capture"
+abstract: >-
+  During Typhoon In-Fa (July 2021), many licence-plate recognition cameras in
+  Shangyu, China, stopped recording or missed part of the passing traffic. The
+  accompanying study linked GPS traces of 290 taxis to the camera records to
+  measure, camera by camera, the share of taxi passages each camera recorded,
+  and showed how the choice of which cameras to trust changes estimates of
+  network recovery. This archive contains the analysis code, the figure source
+  data, public map layers and a synthetic dataset. The camera records and taxi
+  traces are restricted and are not included.
+license: "MIT"
+authors:
+  - family-names: "Zhang"
+    given-names: "Zengzhi"
+    affiliation: "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing 211189, China"
+  - family-names: "Deng"
+    given-names: "Yue"
+    affiliation: "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing 211189, China"
+  - family-names: "Zhang"
+    given-names: "Mengyao"
+    affiliation: "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing 211189, China"
+  - family-names: "Bao"
+    given-names: "Jiayu"
+    affiliation: "Shangyu Branch of Shaoxing Public Security Bureau, No. 1117 Wangchong Road, Shangyu District, Shaoxing, Zhejiang, China"
+  - family-names: "Zhu"
+    given-names: "Liefeng"
+    affiliation: "Shangyu Branch of Shaoxing Public Security Bureau, No. 1117 Wangchong Road, Shangyu District, Shaoxing, Zhejiang, China"
+  - family-names: "Cao"
+    given-names: "Qi"
+    affiliation: "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing 211189, China; Department of Civil and Environmental Engineering, National University of Singapore, Singapore"
+  - family-names: "Ren"
+    given-names: "Gang"
+    affiliation: "Jiangsu Key Laboratory of Urban ITS, Jiangsu Province Collaborative Innovation Center of Modern Urban Traffic Technologies, School of Transportation, Southeast University, Nanjing 211189, China"
+keywords:
+  - "licence-plate recognition"
+  - "traffic cameras"
+  - "typhoon"
+  - "urban traffic recovery"
+  - "taxi GPS"
+  - "data quality"

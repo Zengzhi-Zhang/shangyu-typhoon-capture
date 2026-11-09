@@ -1,0 +1,11 @@
+set,distance_ring,n_devices,baseline_records
+health,0-2,187,705523.0
+health,2-4,195,881767.0
+health,4-7,120,1005897.3
+health,7-12,186,949671.3
+health,12+,194,588455.0
+stable,0-2,177,1170382.0
+stable,2-4,169,801229.0
+stable,4-7,103,1126876.3
+stable,7-12,140,753147.3
+stable,12+,153,585280.7

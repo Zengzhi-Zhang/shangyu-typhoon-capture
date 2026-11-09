@@ -1,0 +1,492 @@
+{
+  "scope": "Authorised hash and field or AST specific provenance. Classifies only the exact registered fields or test constants; no whole-file or directory waiver.",
+  "public_geographic_csv": {
+    "source_data/fig2_landfalls.csv": {
+      "sha256": "08879b32ecf541006fb71edf7129644c3fff3ef47f8c8c858d8d1cddf57265bf",
+      "coordinate_fields": [
+        "lon_on_track",
+        "lat_on_track"
+      ],
+      "source_type": "public_storm_track_interpolation",
+      "source_file": "manuscript/figures/source_data/fig1_landfalls.csv",
+      "source_sha256": "08879b32ecf541006fb71edf7129644c3fff3ef47f8c8c858d8d1cddf57265bf",
+      "byte_copy_verified": true,
+      "generator": "fig1_overview.py: load_track -> landfall_positions(track) -> write_source_data",
+      "dataset": "Public NOAA IBTrACS CMA main-track, interpolated at public official landfall times",
+      "sensor_or_vehicle_data": false
+    }
+  },
+  "synthetic_coordinate_fixtures": {
+    "analysis/v6/checks/check_public_audit_synthetic_v6.py": {
+      "sha256": "3b2444a5c8b35e8ec19b03035585c9369d0fa418132af786a57eba350e871d7c",
+      "test_names": [
+        "JSON_preserves_long_coordinate_decimal",
+        "JSON_scientific_coordinate_precision_rejected"
+      ],
+      "guard": "Exact file hash; main/checks dictionary; named JSON coordinate test calls; comparison ==1; not a whole-file exception."
+    }
+  },
+  "public_map_fields": {
+    "public_layers/terrain_overview_district.tif": {
+      "sha256": "93f6a3d2b437fbdb4f059073ef0e6b5da3ba3588d382e828d3f653ebe338414d",
+      "source_url": "https://registry.opendata.aws/terrain-tiles/",
+      "source_type": "public_Terrain_Tiles",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "float_rgb_tiff",
+      "shape": [
+        1877,
+        1178,
+        3
+      ],
+      "dtype": "float64",
+      "tag_codes": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        284,
+        296,
+        339
+      ],
+      "string_tag_sha256": {},
+      "all_tag_signatures": [
+        {
+          "code": 256,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "59a6d3288187dfcd54bb45d3ab2d4f073617978a981f2e5e07f6d4cfee470114"
+        },
+        {
+          "code": 257,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "d8d1713dc581651249161742dc814f8368913d77c6f08041e79df7a7fe73750b"
+        },
+        {
+          "code": 258,
+          "dtype": "DATATYPES.SHORT",
+          "count": 3,
+          "value_sha256": "97f59f9760f768fbc40f248478bc12ca2a120dcff9a726269c7b65e73b378d64"
+        },
+        {
+          "code": 259,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "a9e6dee841a50de79bf0584df1d3db6ff6b660aea278eb19601dbb87b55771a3"
+        },
+        {
+          "code": 262,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+        },
+        {
+          "code": 273,
+          "dtype": "DATATYPES.LONG",
+          "count": 939,
+          "value_sha256": "0af1a03d27e7a7f33206e0b9aab8e630e3247635c54e08ab0f887a7e4920306c"
+        },
+        {
+          "code": 277,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+        },
+        {
+          "code": 278,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+        },
+        {
+          "code": 279,
+          "dtype": "DATATYPES.LONG",
+          "count": 939,
+          "value_sha256": "6972c6701128d0eaa39a8a0903b38af59e5778087adc442f43513c7b71312352"
+        },
+        {
+          "code": 282,
+          "dtype": "DATATYPES.RATIONAL",
+          "count": 1,
+          "value_sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "code": 283,
+          "dtype": "DATATYPES.RATIONAL",
+          "count": 1,
+          "value_sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "code": 284,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "code": 296,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "code": 339,
+          "dtype": "DATATYPES.SHORT",
+          "count": 3,
+          "value_sha256": "3ed2eeeb9a265598e3c981ec387d7c9bbfae0a111224f9f8532a3c8e7b7f3132"
+        }
+      ],
+      "numeric_payload": "Single RGB page; finite values in [0,1]; no unreviewed trailing payload."
+    },
+    "public_layers/terrain_overview_core.tif": {
+      "sha256": "d121a81d18054d60b0ec1dda8bcbc76c1974c328a55a9fdd0183cd4ee2964ae0",
+      "source_url": "https://registry.opendata.aws/terrain-tiles/",
+      "source_type": "public_Terrain_Tiles",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "float_rgb_tiff",
+      "shape": [
+        1546,
+        820,
+        3
+      ],
+      "dtype": "float64",
+      "tag_codes": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        284,
+        296,
+        339
+      ],
+      "string_tag_sha256": {},
+      "all_tag_signatures": [
+        {
+          "code": 256,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "edbad80a93adb5830afc3fccfe0e7c27a81359b59bb2a8c277f95d4adec7c389"
+        },
+        {
+          "code": 257,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "495afe547befeedeef191264812945e2c199da63da0e8dfde79bee7dbecb210f"
+        },
+        {
+          "code": 258,
+          "dtype": "DATATYPES.SHORT",
+          "count": 3,
+          "value_sha256": "97f59f9760f768fbc40f248478bc12ca2a120dcff9a726269c7b65e73b378d64"
+        },
+        {
+          "code": 259,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "a9e6dee841a50de79bf0584df1d3db6ff6b660aea278eb19601dbb87b55771a3"
+        },
+        {
+          "code": 262,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+        },
+        {
+          "code": 273,
+          "dtype": "DATATYPES.LONG",
+          "count": 516,
+          "value_sha256": "b86e15e06a2ac90c86df93a4817f3c4528e45e0fb73d761a8c3dcc9a7e612750"
+        },
+        {
+          "code": 277,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+        },
+        {
+          "code": 278,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+        },
+        {
+          "code": 279,
+          "dtype": "DATATYPES.LONG",
+          "count": 516,
+          "value_sha256": "ba4cf100e52fdaa312066c5d53caea003616e7e7b3bb39f44359dc61e6b577da"
+        },
+        {
+          "code": 282,
+          "dtype": "DATATYPES.RATIONAL",
+          "count": 1,
+          "value_sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "code": 283,
+          "dtype": "DATATYPES.RATIONAL",
+          "count": 1,
+          "value_sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "code": 284,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "code": 296,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "code": 339,
+          "dtype": "DATATYPES.SHORT",
+          "count": 3,
+          "value_sha256": "3ed2eeeb9a265598e3c981ec387d7c9bbfae0a111224f9f8532a3c8e7b7f3132"
+        }
+      ],
+      "numeric_payload": "Single RGB page; finite values in [0,1]; no unreviewed trailing payload."
+    },
+    "public_layers/terrain_spatial_district.tif": {
+      "sha256": "f6138c9c48b15d74c0e385d36cb537b8b5457fd6924c8841a77063b535a092d3",
+      "source_url": "https://registry.opendata.aws/terrain-tiles/",
+      "source_type": "public_Terrain_Tiles",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "float_rgb_tiff",
+      "shape": [
+        1877,
+        1172,
+        3
+      ],
+      "dtype": "float64",
+      "tag_codes": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        284,
+        296,
+        339
+      ],
+      "string_tag_sha256": {},
+      "all_tag_signatures": [
+        {
+          "code": 256,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "02ede7e8caf71df40a5bb6495f5fcbc092cf7c87de6beed5d7813910d82ba3bd"
+        },
+        {
+          "code": 257,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "d8d1713dc581651249161742dc814f8368913d77c6f08041e79df7a7fe73750b"
+        },
+        {
+          "code": 258,
+          "dtype": "DATATYPES.SHORT",
+          "count": 3,
+          "value_sha256": "97f59f9760f768fbc40f248478bc12ca2a120dcff9a726269c7b65e73b378d64"
+        },
+        {
+          "code": 259,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "a9e6dee841a50de79bf0584df1d3db6ff6b660aea278eb19601dbb87b55771a3"
+        },
+        {
+          "code": 262,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+        },
+        {
+          "code": 273,
+          "dtype": "DATATYPES.LONG",
+          "count": 939,
+          "value_sha256": "4ceb8aa4dea71ef02a16c0d62bf44dc933f56440a2195a8b82379a861cf874b9"
+        },
+        {
+          "code": 277,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+        },
+        {
+          "code": 278,
+          "dtype": "DATATYPES.LONG",
+          "count": 1,
+          "value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+        },
+        {
+          "code": 279,
+          "dtype": "DATATYPES.LONG",
+          "count": 939,
+          "value_sha256": "401980ebe597edb2a8f2f8f45eab70ebb5fcd10aad8626bcdd4865ba3c0004fe"
+        },
+        {
+          "code": 282,
+          "dtype": "DATATYPES.RATIONAL",
+          "count": 1,
+          "value_sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "code": 283,
+          "dtype": "DATATYPES.RATIONAL",
+          "count": 1,
+          "value_sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "code": 284,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "code": 296,
+          "dtype": "DATATYPES.SHORT",
+          "count": 1,
+          "value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+        },
+        {
+          "code": 339,
+          "dtype": "DATATYPES.SHORT",
+          "count": 3,
+          "value_sha256": "3ed2eeeb9a265598e3c981ec387d7c9bbfae0a111224f9f8532a3c8e7b7f3132"
+        }
+      ],
+      "numeric_payload": "Single RGB page; finite values in [0,1]; no unreviewed trailing payload."
+    },
+    "public_layers/terrain_manifest.json": {
+      "sha256": "ed7259ec1f49bffb8538c4999064b3f3a697df244d3b1919a82f978b4138a081",
+      "source_url": "https://registry.opendata.aws/terrain-tiles/",
+      "source_type": "public_Terrain_Tiles",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "public_terrain_georeferencing",
+      "top_level_keys": [
+        "attribution_source",
+        "coordinate_units",
+        "crs",
+        "raster_values",
+        "rasters",
+        "source"
+      ],
+      "attribution_source": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "raster_count": 3,
+      "coordinate_fields": [
+        "rasters[*].plot_extent",
+        "rasters[*].raster_extent"
+      ]
+    },
+    "public_layers/osm_shangyu_boundary.geojson": {
+      "sha256": "0330b2e99f9cbd82860f58712cd866fa8dbde237504a82248d332ddc0823faf7",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "source_type": "public_OSM",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "geometry_only_geojson",
+      "top_level_keys": [
+        "features",
+        "type"
+      ],
+      "feature_count": 1,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "coordinate_fields": [
+        "features[*].geometry.coordinates"
+      ],
+      "attribute_fields": []
+    },
+    "public_layers/osm_zhejiang_boundary.geojson": {
+      "sha256": "dcf64c3fe5609d389653782eb9dd4b4ceef937b9962a39af928515f3ae1d6c07",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "source_type": "public_OSM",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "geometry_only_geojson",
+      "top_level_keys": [
+        "features",
+        "type"
+      ],
+      "feature_count": 1,
+      "geometry_types": [
+        "Polygon"
+      ],
+      "coordinate_fields": [
+        "features[*].geometry.coordinates"
+      ],
+      "attribute_fields": []
+    },
+    "public_layers/naturalearth_land.geojson": {
+      "sha256": "684b5d5363bbc00e246bd12f1bfe8a808a68d3f7c659789f803e265e6f82f6b7",
+      "source_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "source_type": "public_Natural_Earth",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "geometry_only_geojson",
+      "top_level_keys": [
+        "features",
+        "type"
+      ],
+      "feature_count": 1,
+      "geometry_types": [
+        "MultiPolygon"
+      ],
+      "coordinate_fields": [
+        "features[*].geometry.coordinates"
+      ],
+      "attribute_fields": []
+    },
+    "public_layers/osm_major_roads.geojson": {
+      "sha256": "ebc2e1d7a3c390b311e120667e7be2bac0d2dded3db772ee8aedde66d9a08db1",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "source_type": "public_OSM",
+      "field_review": "Only the geometry coordinates, or declared numeric raster payload and every metadata field, are accepted. Other attributes fail independently of this hash.",
+      "format": "geometry_only_geojson",
+      "top_level_keys": [
+        "features",
+        "type"
+      ],
+      "feature_count": 345,
+      "geometry_types": [
+        "LineString",
+        "MultiLineString"
+      ],
+      "coordinate_fields": [
+        "features[*].geometry.coordinates"
+      ],
+      "attribute_fields": []
+    },
+    "public_layers/asset_licenses.json": {
+      "sha256": "1c328055e18e3948648242dc07eca447d806efcf1686dfd890b45a703515c9b8",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "source_type": "public_map_documentation",
+      "format": "public_map_licence_fields",
+      "asset_count": 8,
+      "storm_files": [
+        "source_data/fig2_typhoon_track_cma_ibtracs.csv",
+        "source_data/fig2_landfalls.csv"
+      ],
+      "field_review": "Exact source references and licence attribution fields only; unknown JSON fields rejected."
+    }
+  }
+}

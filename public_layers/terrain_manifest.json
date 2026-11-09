@@ -1,0 +1,57 @@
+{
+  "crs": "EPSG:3857",
+  "coordinate_units": "metres",
+  "raster_values": "RGB intensities from public terrain only",
+  "source": "https://registry.opendata.aws/terrain-tiles/",
+  "attribution_source": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+  "rasters": [
+    {
+      "file": "terrain_overview_district.tif",
+      "plot_extent": [
+        13437598.65696842,
+        13482543.62214532,
+        3467714.3790511508,
+        3539345.4173018336
+      ],
+      "raster_extent": [
+        13437553.135505699,
+        13482574.54516567,
+        3467680.4436994465,
+        3539397.485488015
+      ],
+      "step": 2
+    },
+    {
+      "file": "terrain_overview_core.tif",
+      "plot_extent": [
+        13447609.491164563,
+        13463209.491164563,
+        3496788.5241657253,
+        3526255.1908323923
+      ],
+      "raster_extent": [
+        13447566.386211058,
+        13463235.977009518,
+        3496764.732961957,
+        3526307.6443941784
+      ],
+      "step": 1
+    },
+    {
+      "file": "terrain_spatial_district.tif",
+      "plot_extent": [
+        13437724.704547042,
+        13482417.574566698,
+        3467714.3790511508,
+        3539345.4173018336
+      ],
+      "raster_extent": [
+        13437667.791048126,
+        13482440.78036617,
+        3467680.4436994465,
+        3539397.485488015
+      ],
+      "step": 2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+estimator,label,theta,first_crossing,sustained_point,sustained_lower_bound,cell_class
+R_naive,All-camera record ratio,0.8,2021-07-28,2021-07-28,2021-07-28,both
+R_naive,All-camera record ratio,0.85,2021-07-28,,,none
+R_naive,All-camera record ratio,0.9,2021-07-28,,,none
+R_naive,All-camera record ratio,0.95,2021-07-28,,,none
+R_health,Health-screened ratio,0.8,2021-07-28,2021-07-28,2021-07-28,both
+R_health,Health-screened ratio,0.85,2021-07-28,2021-07-28,2021-07-28,both
+R_health,Health-screened ratio,0.9,2021-07-28,2021-07-28,,point
+R_health,Health-screened ratio,0.95,2021-07-28,,,none
+R_online,Online-set ratio,0.8,2021-07-28,2021-07-28,2021-07-28,both
+R_online,Online-set ratio,0.85,2021-07-28,2021-07-28,2021-07-28,both
+R_online,Online-set ratio,0.9,2021-07-28,2021-07-28,,point
+R_online,Online-set ratio,0.95,2021-07-28,,,none
+R_stable,Fixed stable-set ratio,0.8,2021-07-27,2021-07-27,2021-07-27,both
+R_stable,Fixed stable-set ratio,0.85,2021-07-28,2021-07-28,2021-07-28,both
+R_stable,Fixed stable-set ratio,0.9,2021-07-28,2021-07-28,2021-07-28,both
+R_stable,Fixed stable-set ratio,0.95,2021-07-28,,,none
+R_health_strict,Strict health-screened ratio,0.8,2021-07-27,2021-07-27,2021-07-27,both
+R_health_strict,Strict health-screened ratio,0.85,2021-07-28,2021-07-28,2021-07-28,both
+R_health_strict,Strict health-screened ratio,0.9,2021-07-28,2021-07-28,2021-07-28,both
+R_health_strict,Strict health-screened ratio,0.95,2021-07-28,2021-07-28,,point
+R_spre_health,"Pre-event set, health-screened",0.8,2021-07-28,2021-07-28,2021-07-28,both
+R_spre_health,"Pre-event set, health-screened",0.85,2021-07-28,2021-07-28,2021-07-28,both
+R_spre_health,"Pre-event set, health-screened",0.9,2021-07-28,2021-07-28,2021-07-28,both
+R_spre_health,"Pre-event set, health-screened",0.95,2021-07-28,2021-07-28,2021-07-31,both
+R_upper,Neighbour-imputation scenario,0.8,2021-07-27,2021-07-27,2021-07-27,both
+R_upper,Neighbour-imputation scenario,0.85,2021-07-28,2021-07-28,2021-07-28,both
+R_upper,Neighbour-imputation scenario,0.9,2021-07-28,2021-07-28,2021-07-28,both
+R_upper,Neighbour-imputation scenario,0.95,2021-07-28,,,none
+R_probe,Probe-corrected ratio,0.8,2021-07-27,2021-07-27,2021-07-28,both
+R_probe,Probe-corrected ratio,0.85,2021-07-28,2021-07-28,2021-07-28,both
+R_probe,Probe-corrected ratio,0.9,2021-07-28,2021-07-28,2021-07-28,both
+R_probe,Probe-corrected ratio,0.95,2021-07-28,,,none

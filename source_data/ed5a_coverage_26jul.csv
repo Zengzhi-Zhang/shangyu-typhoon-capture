@@ -1,0 +1,2 @@
+n_city,n_with,n_missing,n_ols,flow_with,flow_missing,r_city,r_with,r_missing
+993,882,111,834,0.6824,0.3176,0.5753,0.5630,0.6018

@@ -1,0 +1,61 @@
+sample,coef,ci_lo,ci_hi,p,n,label,scaling
+R_health,0.93088,0.35028,1.51149,0.00168,834,Intercept,as estimated
+R_health,0.07722,-0.21267,0.36711,0.60160,834,No road within 80 m,as estimated
+R_health,-0.01100,-0.27490,0.25289,0.93488,834,Primary,as estimated
+R_health,0.07385,-0.19384,0.34154,0.58871,834,Residential or service,as estimated
+R_health,0.09200,-0.17994,0.36393,0.50729,834,Secondary,as estimated
+R_health,-0.04945,-0.31818,0.21929,0.71838,834,Tertiary,as estimated
+R_health,0.11364,-0.15725,0.38453,0.41097,834,Unclassified or other,as estimated
+R_health,-0.02672,-0.16948,0.11605,0.71377,834,Unit C,as estimated
+R_health,-0.10787,-0.29157,0.07584,0.24981,834,Unit E,as estimated
+R_health,0.02615,-0.39079,0.44309,0.90216,834,Unit I,as estimated
+R_health,0.63871,0.45949,0.81792,0.00000,834,Unit B,as estimated
+R_health,0.17397,-0.14208,0.49002,0.28064,834,Unit G,as estimated
+R_health,0.08681,-0.09812,0.27173,0.35755,834,Unit A,as estimated
+R_health,0.23194,0.01793,0.44596,0.03366,834,Unit F,as estimated
+R_health,-0.37862,-0.81646,0.05922,0.09010,834,Unit H,as estimated
+R_health,-0.07803,-0.15294,-0.00311,0.04121,834,"Distance to Baiguan, log(1 + km)",as estimated
+R_health,-0.19864,-0.25546,-0.14183,0.00000,834,"Baseline flow, log",as estimated
+R_health,-0.08522,-0.31128,0.14083,0.45996,834,Elevation (per 100 m),per 100 m
+R_health,-0.13550,-0.22794,-0.04306,0.00407,834,"Local relief, ~300 m (per 10 m)",per 10 m
+R_health,0.05472,-0.11146,0.22089,0.51871,834,Expressway or national-highway camera,as estimated
+Sstar,0.33333,-0.09224,0.75890,0.12475,694,Intercept,as estimated
+Sstar,0.13600,-0.11085,0.38285,0.28023,694,No road within 80 m,as estimated
+Sstar,-0.02364,-0.24880,0.20152,0.83695,694,Primary,as estimated
+Sstar,0.08376,-0.14953,0.31706,0.48161,694,Residential or service,as estimated
+Sstar,0.07940,-0.15357,0.31238,0.50414,694,Secondary,as estimated
+Sstar,0.06232,-0.17153,0.29616,0.60146,694,Tertiary,as estimated
+Sstar,0.17998,-0.05377,0.41374,0.13127,694,Unclassified or other,as estimated
+Sstar,0.02616,-0.09240,0.14471,0.66541,694,Unit C,as estimated
+Sstar,0.07998,-0.05915,0.21911,0.25985,694,Unit E,as estimated
+Sstar,0.15126,0.00393,0.29860,0.04420,694,Unit I,as estimated
+Sstar,0.25384,0.12780,0.37989,0.00008,694,Unit B,as estimated
+Sstar,0.14129,-0.15289,0.43547,0.34654,694,Unit G,as estimated
+Sstar,0.08461,-0.05957,0.22880,0.25006,694,Unit A,as estimated
+Sstar,0.24142,0.06370,0.41913,0.00776,694,Unit F,as estimated
+Sstar,-0.12020,-0.48977,0.24937,0.52383,694,Unit H,as estimated
+Sstar,-0.08831,-0.14436,-0.03226,0.00202,694,"Distance to Baiguan, log(1 + km)",as estimated
+Sstar,-0.09902,-0.13644,-0.06159,0.00000,694,"Baseline flow, log",as estimated
+Sstar,-0.10479,-0.33732,0.12774,0.37711,694,Elevation (per 100 m),per 100 m
+Sstar,-0.05825,-0.12728,0.01078,0.09817,694,"Local relief, ~300 m (per 10 m)",per 10 m
+Sstar,-0.01675,-0.14636,0.11287,0.80008,694,Expressway or national-highway camera,as estimated
+A100_floor,-0.72985,-1.48842,0.02872,0.05933,1067,Intercept,as estimated
+A100_floor,0.05700,-0.32892,0.44293,0.77219,1067,No road within 80 m,as estimated
+A100_floor,-0.11452,-0.49137,0.26232,0.55141,1067,Primary,as estimated
+A100_floor,-0.01838,-0.38921,0.35245,0.92260,1067,Residential or service,as estimated
+A100_floor,-0.00130,-0.37215,0.36955,0.99453,1067,Secondary,as estimated
+A100_floor,-0.18241,-0.55391,0.18910,0.33589,1067,Tertiary,as estimated
+A100_floor,0.21533,-0.14964,0.58031,0.24753,1067,Unclassified or other,as estimated
+A100_floor,0.06546,-0.10768,0.23861,0.45869,1067,Unit C,as estimated
+A100_floor,-0.13326,-0.35713,0.09060,0.24331,1067,Unit E,as estimated
+A100_floor,0.29881,-0.22631,0.82392,0.26473,1067,Unit I,as estimated
+A100_floor,-0.25928,-0.51421,-0.00435,0.04622,1067,Unit B,as estimated
+A100_floor,0.14705,-0.23308,0.52719,0.44833,1067,Unit G,as estimated
+A100_floor,0.38742,0.14399,0.63085,0.00181,1067,Unit A,as estimated
+A100_floor,0.53516,0.24332,0.82700,0.00033,1067,Unit F,as estimated
+A100_floor,-0.44746,-0.95415,0.05924,0.08348,1067,Unit H,as estimated
+A100_floor,0.05235,-0.05075,0.15545,0.31965,1067,"Distance to Baiguan, log(1 + km)",as estimated
+A100_floor,-0.03740,-0.10867,0.03388,0.30377,1067,"Baseline flow, log",as estimated
+A100_floor,-0.16126,-0.35777,0.03525,0.10775,1067,Elevation (per 100 m),per 100 m
+A100_floor,-0.06331,-0.17175,0.04513,0.25250,1067,"Local relief, ~300 m (per 10 m)",per 10 m
+A100_floor,-0.07272,-0.33278,0.18734,0.58364,1067,Expressway or national-highway camera,as estimated

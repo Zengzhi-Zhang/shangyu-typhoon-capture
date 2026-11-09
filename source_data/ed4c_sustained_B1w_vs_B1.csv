@@ -1,0 +1,33 @@
+estimator,label,theta,class_B1,point_B1,lower_B1,class_B1w,point_B1w,lower_B1w,identical
+R_naive,All cameras (record ratio),0.8,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_naive,All cameras (record ratio),0.85,none,,,none,,,True
+R_naive,All cameras (record ratio),0.9,none,,,none,,,True
+R_naive,All cameras (record ratio),0.95,none,,,none,,,True
+R_health,Health-screened,0.8,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_health,Health-screened,0.85,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_health,Health-screened,0.9,point,2021-07-28,,point,2021-07-28,,True
+R_health,Health-screened,0.95,none,,,none,,,True
+R_online,Online set,0.8,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_online,Online set,0.85,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_online,Online set,0.9,point,2021-07-28,,point,2021-07-28,,True
+R_online,Online set,0.95,none,,,none,,,True
+R_stable,Fixed stable set,0.8,both,2021-07-27,2021-07-27,both,2021-07-27,2021-07-27,True
+R_stable,Fixed stable set,0.85,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_stable,Fixed stable set,0.9,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_stable,Fixed stable set,0.95,none,,,none,,,True
+R_health_strict,Strict health-screened,0.8,both,2021-07-27,2021-07-27,both,2021-07-27,2021-07-27,True
+R_health_strict,Strict health-screened,0.85,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_health_strict,Strict health-screened,0.9,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_health_strict,Strict health-screened,0.95,point,2021-07-28,,point,2021-07-28,,True
+R_spre_health,"Pre-event set, health-screened",0.8,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_spre_health,"Pre-event set, health-screened",0.85,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_spre_health,"Pre-event set, health-screened",0.9,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_spre_health,"Pre-event set, health-screened",0.95,both,2021-07-28,2021-07-31,both,2021-07-28,2021-07-31,True
+R_upper,Neighbour-imputation scenario,0.8,both,2021-07-27,2021-07-27,both,2021-07-27,2021-07-27,True
+R_upper,Neighbour-imputation scenario,0.85,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_upper,Neighbour-imputation scenario,0.9,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_upper,Neighbour-imputation scenario,0.95,none,,,none,,,True
+R_probe,Probe-corrected,0.8,both,2021-07-27,2021-07-28,both,2021-07-27,2021-07-28,True
+R_probe,Probe-corrected,0.85,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_probe,Probe-corrected,0.9,both,2021-07-28,2021-07-28,both,2021-07-28,2021-07-28,True
+R_probe,Probe-corrected,0.95,none,,,none,,,True

@@ -1,0 +1,10 @@
+group,threshold_days,cohort_size,first_day_k,first_date
+local_zheD,6,146283,3,2021-07-27
+local_zheD,8,119758,3,2021-07-27
+local_zheD,9,102123,3,2021-07-27
+zhejiang_other,6,21767,4,2021-07-28
+zhejiang_other,8,13644,4,2021-07-28
+zhejiang_other,9,10077,4,2021-07-28
+other_province,6,21950,6,2021-07-30
+other_province,8,13788,5,2021-07-29
+other_province,9,10290,5,2021-07-29

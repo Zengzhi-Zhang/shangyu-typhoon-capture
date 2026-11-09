@@ -1,0 +1,8 @@
+outputs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.matplotlib/
+.DS_Store
+config/paths.yaml
+config/private.yaml

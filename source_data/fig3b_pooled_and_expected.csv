@@ -1,0 +1,6 @@
+group,n_cameras,period,quantity,passages,recordings,capture_pct,camera_ci_lo,camera_ci_hi
+failed,64,12-19 Jul (control),recorded,171157,103473,60.46,,
+failed,64,26 Jul,recorded,14335,55,0.38,,
+stable,170,12-19 Jul (control),recorded,378774,280455,74.04,,
+stable,170,26 Jul,recorded,36215,25384,70.09,,
+failed,64,26 Jul,expected at own control-period capture rates,14335,8733,60.92,7119,10994

@@ -1,0 +1,11 @@
+row,state,role,cameras,a1_failed,baseline_flow_share
+No records,zero,health_out,140,140,0.168524932507
+Offline,offline,health_out,6,5,0.00697830320254
+Recording stopped part-day,partial_day,health_out,39,10,0.0332779471995
+Some lanes silent,partial_channel,health_out,43,0,0.128643283354
+Plate recognition degraded,recognition_degraded,kept,152,0,0.0637316090414
+All lanes very low,low_all_channels,strict_out,3,3,0.00228440514179
+Other degradation,degraded_other,strict_out,289,0,0.168483349609
+Normal recording,normal,kept,549,5,0.428076169946
+Health-screened set,health,set,993,8,0.66257553373819
+Strict health-screened set,strict,set,701,5,0.4918077789874

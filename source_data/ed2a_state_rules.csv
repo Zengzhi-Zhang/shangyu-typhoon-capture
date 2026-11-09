@@ -1,0 +1,9 @@
+order,state,label,rule,screening_role
+1,zero,No records,Zero records all day,health_out
+2,offline,Offline,Records in ≤4 hours (≤2 on 25 Jul),health_out
+3,partial_day,Recording stopped part-day,"Records in 5–11 hours, with a stop hour or ≥6 consecutive empty hours",health_out
+4,partial_channel,Some lanes silent,≥1 lane below 5% and ≥1 lane at or above 50% of its baseline,health_out
+5,recognition_degraded,Plate recognition degraded,"Unreadable-plate share ≥0.10 above baseline, and ratio ≥0.20",kept
+6,low_all_channels,All lanes very low,"Ratio <0.05, records in ≥12 hours, no lane split or recognition spike",strict_out
+7,degraded_other,Other degradation,Ratio 0.05–0.50,strict_out
+8,normal,Normal recording,None of rules 1–7 met (fallback label),kept
