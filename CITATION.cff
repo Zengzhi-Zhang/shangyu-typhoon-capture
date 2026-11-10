@@ -3,6 +3,12 @@ message: "If you use this software or its source data, please cite the accompany
 title: "Code and source data for 'Vehicles missed by failed cameras reshape urban traffic recovery estimates after a typhoon'"
 type: software
 version: "1.0.0"
+date-released: "2026-11-10"
+doi: "10.5281/zenodo.24096234"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24096233"
+    description: "Concept DOI for all versions"
 repository-code: "https://github.com/Zengzhi-Zhang/shangyu-typhoon-capture"
 abstract: >-
   During Typhoon In-Fa (July 2021), many licence-plate recognition cameras in

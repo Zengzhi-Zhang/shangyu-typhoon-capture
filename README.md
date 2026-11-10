@@ -1,6 +1,6 @@
 # Vehicles missed by failed cameras reshape urban traffic recovery estimates after a typhoon
 
-Zengzhi Zhang, Yue Deng, Mengyao Zhang, Jiayu Bao, Liefeng Zhu, Qi Cao and Gang Ren. Paper DOI: **to be assigned**. Software archive DOI: **to be assigned**.
+Zengzhi Zhang, Yue Deng, Mengyao Zhang, Jiayu Bao, Liefeng Zhu, Qi Cao and Gang Ren. Paper DOI: **to be assigned**. Software archive (v1.0.0): [10.5281/zenodo.24096234](https://doi.org/10.5281/zenodo.24096234). All versions: [10.5281/zenodo.24096233](https://doi.org/10.5281/zenodo.24096233).
 
 ## Overview
 
